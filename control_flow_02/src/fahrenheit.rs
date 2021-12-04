@@ -1,3 +1,4 @@
+// Convert celcius to fahrenheit
 use std::io;
 
 fn main() {
