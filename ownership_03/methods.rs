@@ -37,4 +37,11 @@ impl Rectangle {
 
     me > other
   }
+
+  fn square(size: u32) -> Rectangle {
+    Rectangle {
+      width: size,
+      height: size
+    }
+  }
 }
