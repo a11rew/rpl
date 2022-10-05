@@ -12,7 +12,7 @@ fn main() {
 
   let max: i32 = match input.trim().parse() {
     Ok(val) => val,
-    Err(_) => panic!("enter a nuber"),
+    Err(_) => panic!("enter a number"),
   };
 
   // seed values
